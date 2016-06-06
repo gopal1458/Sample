@@ -7,6 +7,7 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity {
 
     String value="hello";
+    String value1="hello";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,6 +18,6 @@ public class MainActivity extends AppCompatActivity {
         TextView hello1 =(TextView) findViewById(R.id.hello1);
 
         hello.setText(value);
-        hello1.setText(value);
+        hello1.setText(value1);
     }
 }
