@@ -6,6 +6,8 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
+    String value="hello";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -13,6 +15,6 @@ public class MainActivity extends AppCompatActivity {
 
         TextView hello =(TextView) findViewById(R.id.hello);
 
-        hello.setText("HELLO");
+        hello.setText(value);
     }
 }
